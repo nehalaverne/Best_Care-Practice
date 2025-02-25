@@ -8,25 +8,22 @@
 .topnavbar{
     overflow: hidden;
     background-color: lavenderblush;
-    height: 40px;
-    padding-top: 20px;
+    padding-top: 10px 0;
     
 }
 
-.topnavbar a{
-    float: right;
-    color: darkslategray;
-    font-weight: bold;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: solid;
-    font-size: 20px;
-    margin: 0 30px;
+.topnavbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
 }
 
-.topnavbar a:hover{
+.topnavbar a:hover {
     color: palevioletred;
-}
+    background-color: lightgray;
+    border-radius: 5px;
 
 .intro{
     background-color: turquoise;
