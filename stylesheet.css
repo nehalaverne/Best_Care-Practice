@@ -6,18 +6,20 @@
 }
     
 .topnavbar{
-    overflow: hidden;
-    background-color: lavenderblush;
-    padding-top: 10px 0;
-    
-}
-
-.topnavbar {
-    display: flex;
+   display: flex;
     justify-content: flex-end;
     align-items: center;
-    text-decoration: none;
+    background-color: lavenderblush;
     padding: 10px 20px;
+}
+
+.topnavbar a {
+    color: darkslategray;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px 15px;
 }
 
 .topnavbar a:hover {
